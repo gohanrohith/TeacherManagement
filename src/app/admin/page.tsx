@@ -37,7 +37,7 @@ export default async function AdminDashboard() {
         {/* Header */}
         <div className="flex flex-col sm:flex-row justify-between items-start sm:items-center gap-4 mb-6 sm:mb-8">
           <div>
-            <h1 className="text-2xl sm:text-3xl md:text-4xl font-bold text-slate-900">EduCentral Admin</h1>
+            <h1 className="text-2xl sm:text-3xl md:text-4xl font-bold text-slate-900">GREENWOOD Admin</h1>
             <p className="text-sm sm:text-base text-slate-600 mt-1">Teacher Management Dashboard</p>
           </div>
           <div className="flex items-center gap-2 sm:gap-4 w-full sm:w-auto">

@@ -2,7 +2,7 @@ import "@/styles/globals.css";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "EduCentral | Teacher Management",
+  title: "GREENWOOD | Teacher Management",
   description: "Secure school staff record system",
 };
 

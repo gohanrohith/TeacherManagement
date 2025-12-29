@@ -36,7 +36,7 @@ export default function LoginPage() {
     <div className="flex items-center justify-center min-h-screen bg-gradient-to-br from-gray-900 to-gray-700 p-4">
       <form onSubmit={handleLogin} className="p-6 sm:p-8 bg-white rounded-xl shadow-2xl w-full max-w-md">
         <div className="text-center mb-6 sm:mb-8">
-          <h1 className="text-xl sm:text-2xl md:text-3xl font-bold text-gray-900 mb-1 sm:mb-2">EduCentral</h1>
+          <h1 className="text-xl sm:text-2xl md:text-3xl font-bold text-gray-900 mb-1 sm:mb-2">GREENWOOD</h1>
           <h2 className="text-base sm:text-lg text-gray-600">Admin Access</h2>
         </div>
         <input

@@ -2,7 +2,7 @@ import type { ReactNode } from "react";
 import AdminProtection from "@/components/AdminProtection";
 
 export const metadata = {
-  title: "Admin | EduCentral",
+  title: "Admin | GREENWOOD",
   description: "Admin dashboard for managing teacher records",
 };
 
