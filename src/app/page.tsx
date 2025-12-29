@@ -3,7 +3,6 @@
 import { useState } from 'react';
 import { Button } from '@/components/ui/button';
 import { Card } from '@/components/ui/card';
-import { GraduationCap } from 'lucide-react';
 import RegistrationForm from '@/components/RegistrationForm';
 
 export default function HomePage() {
@@ -20,10 +19,8 @@ export default function HomePage() {
         <Card className="p-4 sm:p-6 md:p-8 shadow-xl bg-white/80 backdrop-blur">
           {/* Logo Inside Card */}
           <div className="text-center mb-4 sm:mb-6">
-            <div className="w-24 h-24 sm:w-32 sm:h-32 mx-auto mb-3 rounded-full bg-gradient-to-br from-emerald-400 to-blue-500 flex items-center justify-center shadow-2xl">
-              {/* CHANGE YOUR LOGO HERE - Replace GraduationCap with your logo image */}
-              <GraduationCap className="w-12 h-12 sm:w-16 sm:h-16 text-white" />
-              {/* Example with image: <img src="/your-logo.png" alt="Logo" className="w-full h-full object-contain p-4" /> */}
+            <div className="w-24 h-24 sm:w-32 sm:h-32 mx-auto mb-3 rounded-full bg-white flex items-center justify-center shadow-2xl overflow-hidden border-4 border-emerald-100">
+              <img src="/logo.png" alt="Greenwood Logo" className="w-full h-full object-contain p-2" />
             </div>
             <h1 className="text-2xl sm:text-3xl md:text-4xl font-bold text-slate-900 mb-1 sm:mb-2">GREENWOOD</h1>
             <p className="text-sm sm:text-base md:text-lg text-slate-600">Teacher Management System</p>
