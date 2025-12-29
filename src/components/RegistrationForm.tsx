@@ -84,7 +84,7 @@ export default function RegistrationForm({ onBack }: { onBack: () => void }) {
   const [aadharChecking, setAadharChecking] = useState(false);
   const [aadharExists, setAadharExists] = useState(false);
 
-  const { register, handleSubmit, formState: { errors }, watch } = useForm<FormData>({
+  const { register, handleSubmit, formState: { errors }, watch, setValue } = useForm<FormData>({
     resolver: zodResolver(teacherSchema),
   });
 
